@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-info:hover{
+    background-color: aquamarine;
+}
+
+canvas{
+    animation-name: app;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes app{
+    from{box-shadow: 1px 1px 38px rgb(0, 248, 170);}
+    to{box-shadow: 1px 1px 38px aquamarine;}
+}
+.heading{
+    background-color: rgb(55, 244, 241);
+}
+body{
+    background-color: rgb(3, 153, 239);
+}
